@@ -1,0 +1,198 @@
+.price-page-container {
+  width: 100%;
+  background-color: #fff;
+}
+
+.breadcrumb {
+  padding: 15px 5%;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+  color: #777;
+  font-size: 13px;
+}
+
+.price-content {
+  padding: 60px 5%;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.price-content h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.price-content p {
+  font-size: 16px;
+  color: #666;
+}
+
+.divider-green {
+  width: 80px;
+  height: 3px;
+  background-color: #4caf50;
+  margin: 0 auto 20px;
+}
+.top-services {
+  padding: 60px 5%;
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.top-services h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.service-item {
+  flex-basis: 30%;
+  min-width: 280px;
+  padding: 20px;
+  text-align: center;
+}
+
+.service-icon {
+  font-size: 80px;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.service-item h4 {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.service-item p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+.top-services {
+  padding: 60px 5%;
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.top-services h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.service-item {
+  flex-basis: 30%;
+  min-width: 280px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* ... (CSS cũ của bạn cho .service-icon, .service-item h4, .service-item p) ... */
+.service-icon {
+  font-size: 80px;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.service-item h4 {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.service-item p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.top-services {
+  padding: 60px 5%;
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.top-services h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.service-item {
+  flex-basis: 30%;
+  min-width: 280px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  font-size: 80px;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.service-item h4 {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.service-item p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}

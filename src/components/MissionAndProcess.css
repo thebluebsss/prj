@@ -1,0 +1,91 @@
+.mission-process-wrapper {
+  padding: 60px 5%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.mission-container {
+  margin-bottom: 60px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mission-container h2,
+.process-container h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.divider {
+  width: 80px;
+  height: 3px;
+  background-color: #4caf50;
+  margin: 0 auto 20px;
+}
+
+.mission-container p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.process-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.process-steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.process-step {
+  flex-basis: 22%;
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.process-step:hover {
+  transform: scale(1.05);
+}
+
+.process-step h4 {
+  font-size: 16px;
+  color: #0099ff;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.process-step p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.icon-wrapper {
+  font-size: 60px;
+  margin: 0 auto 10px;
+  color: #777;
+}
+
+.icon-wrapper.truck {
+  color: #0099ff;
+}
+
+@media (max-width: 768px) {
+  .process-steps {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .process-step {
+    flex-basis: 100%;
+  }
+}
