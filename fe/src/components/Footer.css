@@ -1,0 +1,144 @@
+.footer-container {
+  background-color: #ffffff;
+  color: #555;
+  padding-top: 60px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 15px;
+}
+
+.footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.footer-column {
+  flex-basis: 22%;
+  min-width: 250px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.footer-column.brand-info h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #005a9c;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.footer-column p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 12px;
+}
+
+.footer-column ul li a {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #0099ff;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  color: #555;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #0099ff;
+  color: #fff;
+}
+
+.subscribe-form {
+  display: flex;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 300px;
+}
+
+.subscribe-form input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  font-size: 14px;
+}
+.subscribe-form input:focus {
+  outline: none;
+}
+
+.subscribe-form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0 15px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #0099ff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 5%;
+  margin-top: 30px;
+  border-top: 1px solid #e0e0e0;
+  background-color: #f9f9f9;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+@media (max-width: 992px) {
+  .footer-column {
+    flex-basis: 45%;
+  }
+}
+@media (max-width: 576px) {
+  .footer-column {
+    flex-basis: 100%;
+  }
+}
